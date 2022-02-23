@@ -1,0 +1,88 @@
+.nav.justify-content-center {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 100px;
+    justify-content: center;
+    font-size: 0.7em;
+}
+
+.nav-item {
+    padding: 0 10px;
+    
+}
+
+.dropdown-toggle {
+    font-size: 0.7em;
+}
+
+.dropdown-item  {
+    font-size: 0.5em;
+}
+
+
+.carousel-item {
+    position: relative;
+    text-align: center;
+}
+
+
+/*for vertical and horizontal positioning of items,
+just create a parent div and apply flex to the initial
+and now child items!!!*/
+/*I should include the absolute position to the parent class of the
+ text, cause I want to put it into the img and not under the img.
+ As the inline elements take the whole width and start a new line
+ under the previous elements. Αρα το βαζω σταθερο με αναφορα bottom 
+ and left 0, dld πανω αριστερα.
+*/
+.titleSlide {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+    color: white;
+}
+
+.abilities {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    
+        
+}
+
+.ability {
+    font-size: 1em;
+}
+
+.d-block.w-100 {
+    filter: grayscale(100%);
+}
+
+.nav-link .disabled {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-link.active {
+    color: red;
+}
+
+.title {
+
+}
+
+.button {
+    padding: 5px 20px;
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+}
